@@ -19,7 +19,7 @@ public class Rectangle_Test {
 	}
 
 	@Before
-	public void setUp() throws Exception {
+	public void setUp(x=-1, y= -2) throws Exception {IllegalRectangle("Sorry must be a positive number")
 	}
 
 	@After

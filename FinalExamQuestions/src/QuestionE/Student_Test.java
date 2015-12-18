@@ -44,5 +44,17 @@ public class Student_Test {
 
 		assertTrue(1==1);
 	}
+	@Test
+	public void Student_Test() {
+		
+		Date dBirthDate = null;
+		try {
+			dBirthDate = new SimpleDateFormat("yyyy-MM-dd").parse("1972-07-31");
+		} catch (ParseException e) {
+			e.printStackTrace();
+		}
+		Student stu1 = new Student("Bert", "Randall", "Gibbons", dBirthDate, "214 Labrador Lane", "302-893-6889", "bgibbons@udel.edu","MIS");
 
+
+		assertTrue(HashMap==5);
 }
